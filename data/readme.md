@@ -5,4 +5,6 @@
 
 The dataset can be accessed [here](https://geohub.lacity.org/datasets/ladot::high-injury-network-2/explore).
 
-**2**. 
+**2**. The data set Stop_and_Yield.zip collects compiles the stop and yield signs in the City of Los Angeles. 
+
+The dataset can be accessed [here](https://geohub.lacity.org/datasets/lahub::stop-and-yield-signs/about)
