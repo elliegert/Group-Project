@@ -9,16 +9,16 @@ The spatial scope of this project will be at the city level, specifically the Ci
 ## Data Sources
 **Fatality and collision data**
   * _Los Angeles Collisions 2014 through 2019_
-    * Description: This data set includes details about all of the road collisions from 2014 to 2019 on roads that are within the Los Angeles City jurisdiction, not including state highways. It includes many characteristics of each collision, including data like severity of injury, time of day, and what types of vehicles were involved. The data is available as a CSV file, KML, Shapefile, and GeoJSON
+    * Description: This data set includes details about all of the road collisions from 2014 to 2019 on roads that are within the Los Angeles City jurisdiction, not including state highways. It includes many characteristics of each collision, including data like severity of injury, time of day, and what types of vehicles were involved. The data is available [here](https://geohub.lacity.org/datasets/ladot::los-angeles-collisions-2014through2019/about) as a CSV file, KML, Shapefile, and GeoJSON
     * Source: Los Angeles City GeoHub, from the The Statewide Integrated Traffic Records System (SWITRS) and prepared by RoadSafeGIS
   * _High Injury Network_
     * Description: The data set named High_Injury_Network.zip explores data from LADOT's High-Injury Network (HIN), which highlights streets with the highest incidences of severe and fatal injury collisions in the City of LA. LADOT's description of the data is below: Even though the HIN represents just 6% of our total street mileage, it accounts for 65% of all deaths and severe injuries involving people walking. Strategic investments along the HIN will have the biggest effect in reducing death and severe injury on our streets. Our methodology draws from the latest 5 years of traffic collision data. The HIN is the guiding document for prioritizing our efforts and the framework for achieving zero traffic deaths by 2025.
-    * Source: The dataset can be accessed here from LA City Geohub.
+    * Source: The dataset can be accessed [here](https://geohub.lacity.org/datasets/ladot::high-injury-network-2/explore) from LA City Geohub.
 
 **Physical characteristic data** 
 * Regulatory signs
   * Description: This data includes traffic signs including speed limit, one way, no left turns, weight restrictions, and on the streets of Los Angeles. Sign descriptors, such as speed limit, no left turn, right turn only, etc. are included in this data set. 
-  * Source:  LA City Geohub, from Los Angeles Department of Transportation. 
+  * Source:  Data can be found [here](https://geohub.lacity.org/datasets/regulatory-signs/explore?location=34.009903%2C-118.405989%2C13.00) from LA City Geohub, from Los Angeles Department of Transportation. 
 * Other potential data sources for physical characteristics include:
   * Cross walks
   * Traffic counts
