@@ -30,22 +30,22 @@ The spatial scope of this project will be at the city level, specifically the Ci
   * Medians
   * Intersection traffic control characteristics including traffic signals and signs
 ## Analysis and Scope
-1. Step 1:
-* We will first analyze 1. The hot spot locations that have had the highest number of traffic fatalities in Los Angeles and 2. The physical characteristics of these locations, such as street width, speed limited, etc. We will analyze this data to determine what the most common characteristics of these hot spots are. * We are imagining that this visualization could include:  
+**Step 1:** We will first analyze 1. The hot spot locations that have had the highest number of traffic fatalities in Los Angeles and 2. The physical characteristics of these locations, such as street width, speed limited, etc. We will analyze this data to determine what the most common characteristics of these hot spots are. * We are imagining that this visualization could include:  
   * A map of the locations of traffic fatalities, demonstrating the areas with the highest number of deaths.  
   * This would most likely be a chart that depicts the common characteristics of these hot spots. We could also map where these hot spot locations are in the city. 
-1. Step 2: 
-* We will then take a look at Los Angeles as a whole to see if there are other locations that have these common characteristics, but that might not necessarily be fatality hot spots.  
+**Step 2:** We will then take a look at Los Angeles as a whole to see if there are other locations that have these common characteristics, but that might not necessarily be fatality hot spots.  
 * This map would show locations throughout LA that have the common characteristics we identified in the mentioned above. 
-Scope
+**Scope** 
 There are a few scoping parameters we need to define. As we learn more about the available data sources and learn more about spatial analysis, we may narrow the scope based on the following factors: 
-Population: The national study that this project builds off of looks solely at pedestrians, we are also considering fatalities of people biking, walking, and driving, and may also analyze age and demographic data.
-Physical boundaries for fatality “hotspots”: We are considering what the physical boundaries of our “hotspot” locations are. We could choose to focus on individual intersections, blocks, or a certain length series of blocks of a corridor. 
-Time period for traffic fatalities: It is important to define our time boundaries for the fatality data appropriately, given the somewhat random nature of fatalities. We know that looking at just a single year or a couple of years often doesn’t paint an accurate picture, so it may make more sense to look over a period of 10-15 years.  
-Fatalities vs severe injuries: The two common safety factors used by municipalities and The Statewide Integrated Traffic Records System (SWITRS) are fatalities and severe injuries. While the national study only looked at fatalities, since we’re looking at a smaller geographic location it might make sense to also include severe injuries. Additionally, if we need to use a shorter time period it might make sense to also include severe injuries to have more data points. 
-Conclusion 
+* _Population_: The national study that this project builds off of looks solely at pedestrians, we are also considering fatalities of people biking, walking, and driving, and may also analyze age and demographic data.
+* _Physical boundaries for fatality “hotspots”_: We are considering what the physical boundaries of our “hotspot” locations are. We could choose to focus on individual intersections, blocks, or a certain length series of blocks of a corridor. 
+* _Time period for traffic fatalities_: It is important to define our time boundaries for the fatality data appropriately, given the somewhat random nature of fatalities. We know that looking at just a single year or a couple of years often doesn’t paint an accurate picture, so it may make more sense to look over a period of 10-15 years.  
+* _Fatalities vs severe injuries_: The two common safety factors used by municipalities and The Statewide Integrated Traffic Records System (SWITRS) are fatalities and severe injuries. While the national study only looked at fatalities, since we’re looking at a smaller geographic location it might make sense to also include severe injuries. Additionally, if we need to use a shorter time period it might make sense to also include severe injuries to have more data points. 
+## Conclusion 
 From our research, the two main questions we expect to be able to answer are: 1. What are the common characteristics of the most dangerous roads in LA? 2. Are there locations in LA that have not yet had a high number of fatalities, but that have the common characteristics that make them very dangerous? 
+
 Some further insights that we hope to be able to gain from our research can help us understand why there are locations with common characteristics that lack a high number of collisions or fatalities. For example, are these locations in neighborhoods where traffic crashes are more likely to be unreported due to neighborhood characteristics and demographics, do places with lower traffic counts just have fewer fatalities, are there other infrastructure investments in place that we did not analyze, etc.  
+
 Ultimately, we hope to gain insight into where infrastructure investments and improvements can be made to prioritize safety on Los Angeles city streets before accidents happen. 
 
 
