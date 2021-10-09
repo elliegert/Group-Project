@@ -8,3 +8,7 @@ The dataset can be accessed [here](https://geohub.lacity.org/datasets/ladot::hig
 **2**. The data set Stop_and_Yield.zip collects compiles the stop and yield signs in the City of Los Angeles. 
 
 The dataset can be accessed [here](https://geohub.lacity.org/datasets/lahub::stop-and-yield-signs/about)
+
+**3**. The data set Crosswalks.zip collects compiles crosswalks in the City of Los Angeles. 
+
+The dataset can be accessed [here](https://geohub.lacity.org/datasets/lahub::crosswalks/about)
