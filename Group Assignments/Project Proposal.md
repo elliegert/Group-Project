@@ -33,6 +33,7 @@ The spatial scope of this project will be at the city level, specifically the Ci
 **Step 1:** We will first analyze 1. The hot spot locations that have had the highest number of traffic fatalities in Los Angeles and 2. The physical characteristics of these locations, such as street width, speed limited, etc. We will analyze this data to determine what the most common characteristics of these hot spots are. * We are imagining that this visualization could include:  
   * A map of the locations of traffic fatalities, demonstrating the areas with the highest number of deaths.  
   * This would most likely be a chart that depicts the common characteristics of these hot spots. We could also map where these hot spot locations are in the city. 
+
 **Step 2:** We will then take a look at Los Angeles as a whole to see if there are other locations that have these common characteristics, but that might not necessarily be fatality hot spots.  
 * This map would show locations throughout LA that have the common characteristics we identified in the mentioned above. 
 **Scope** 
