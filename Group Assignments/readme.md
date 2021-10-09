@@ -1,1 +1,1 @@
-# Project Proposal
+**Repo for all things group project related!**
