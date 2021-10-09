@@ -7,35 +7,36 @@ Building off of the work of Schneider et. al., titled United States fatal pedest
 ## Spatial Scope: 
 The spatial scope of this project will be at the city level, specifically the City of Los Angeles. We feel that this is the most useful scope because we are aiming to identify the common characteristics of unsafe traffic corridors within Los Angeles’ city limits. Additionally, the availability of citywide data makes this project feasible. Further, it makes sense to focus on one particular municipal level because of how agencies delineate infrastructure responsibility. This is research that would be of particular interest to LADOT, who is responsible only for LA City streets. Eventually, once common characteristics of unsafe streets and traffic corridors are identified for the city of Los Angeles, we could compare this to data at a larger scale to see if these common characteristics overlap with LA county-wide data. Further, the study by Schneider et. al.,  titled United States fatal pedestrian crash hot spot locations and characteristics looked at fatality data and physical characteristics nationally, but this scope will help us understand if the characteristics they identified hold true at the scale of Los Angeles, or if there are local conditions that make LA unique from other cities. 
 ## Data Sources
-* **Fatality and collision data**
+**Fatality and collision data**
   * _Los Angeles Collisions 2014 through 2019_
     * Description: This data set includes details about all of the road collisions from 2014 to 2019 on roads that are within the Los Angeles City jurisdiction, not including state highways. It includes many characteristics of each collision, including data like severity of injury, time of day, and what types of vehicles were involved. The data is available as a CSV file, KML, Shapefile, and GeoJSON
     * Source: Los Angeles City GeoHub, from the The Statewide Integrated Traffic Records System (SWITRS) and prepared by RoadSafeGIS
   * _High Injury Network_
     * Description: The data set named High_Injury_Network.zip explores data from LADOT's High-Injury Network (HIN), which highlights streets with the highest incidences of severe and fatal injury collisions in the City of LA. LADOT's description of the data is below: Even though the HIN represents just 6% of our total street mileage, it accounts for 65% of all deaths and severe injuries involving people walking. Strategic investments along the HIN will have the biggest effect in reducing death and severe injury on our streets. Our methodology draws from the latest 5 years of traffic collision data. The HIN is the guiding document for prioritizing our efforts and the framework for achieving zero traffic deaths by 2025.
     * Source: The dataset can be accessed here from LA City Geohub.
-* **Physical characteristic data** 
-Regulatory signs
-Description: This data includes traffic signs including speed limit, one way, no left turns, weight restrictions, and on the streets of Los Angeles. Sign descriptors, such as speed limit, no left turn, right turn only, etc. are included in this data set. 
-Source:  LA City Geohub, from Los Angeles Department of Transportation. 
-Other potential data sources for physical characteristics include:
-Cross walks
-Traffic counts
-Street designations, which indicate for example, if the street is a small neighborhood street or a larger arterial road  
-Land use, potentially from zoning map
-Number of lanes
-Speed limit
-Traffic volumes 
-Medians
-Intersection traffic control characteristics including traffic signals and signs
-Scope
-Step 1:
-We will first analyze 1. The hot spot locations that have had the highest number of traffic fatalities in Los Angeles and 2. The physical characteristics of these locations, such as street width, speed limited, etc. We will analyze this data to determine what the most common characteristics of these hot spots are. We are imagining that this visualization could include:  
-1) A map of the locations of traffic fatalities, demonstrating the areas with the highest number of deaths.  
-2) This would most likely be a chart that depicts the common characteristics of these hot spots. We could also map where these hot spot locations are in the city. 
-Step 2: 
-We will then take a look at Los Angeles as a whole to see if there are other locations that have these common characteristics, but that might not necessarily be fatality hot spots.  
-1) This map would show locations throughout LA that have the common characteristics we identified in the mentioned above. 
+
+**Physical characteristic data** 
+* Regulatory signs
+  * Description: This data includes traffic signs including speed limit, one way, no left turns, weight restrictions, and on the streets of Los Angeles. Sign descriptors, such as speed limit, no left turn, right turn only, etc. are included in this data set. 
+  * Source:  LA City Geohub, from Los Angeles Department of Transportation. 
+* Other potential data sources for physical characteristics include:
+  * Cross walks
+  * Traffic counts
+  * Street designations, which indicate for example, if the street is a small neighborhood street or a larger arterial road  
+  * Land use, potentially from zoning map
+  * Number of lanes
+  * Speed limit
+  * Traffic volumes 
+  * Medians
+  * Intersection traffic control characteristics including traffic signals and signs
+## Analysis and Scope
+1. Step 1:
+* We will first analyze 1. The hot spot locations that have had the highest number of traffic fatalities in Los Angeles and 2. The physical characteristics of these locations, such as street width, speed limited, etc. We will analyze this data to determine what the most common characteristics of these hot spots are. * We are imagining that this visualization could include:  
+  * A map of the locations of traffic fatalities, demonstrating the areas with the highest number of deaths.  
+  * This would most likely be a chart that depicts the common characteristics of these hot spots. We could also map where these hot spot locations are in the city. 
+1. Step 2: 
+* We will then take a look at Los Angeles as a whole to see if there are other locations that have these common characteristics, but that might not necessarily be fatality hot spots.  
+* This map would show locations throughout LA that have the common characteristics we identified in the mentioned above. 
 Scope
 There are a few scoping parameters we need to define. As we learn more about the available data sources and learn more about spatial analysis, we may narrow the scope based on the following factors: 
 Population: The national study that this project builds off of looks solely at pedestrians, we are also considering fatalities of people biking, walking, and driving, and may also analyze age and demographic data.
