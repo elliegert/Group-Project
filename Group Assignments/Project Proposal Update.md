@@ -1,6 +1,6 @@
 # Proactive Planning - Identifying Common Characterstics of the Built Environment that Make LA Streets Dangerous
 
-[Link to proposal](https://github.com/elliegert/Group-Project/blob/main/Group%20Assignments/Project%20Proposal%20Update.md)
+[Link to proposal](https://github.com/elliegert/Group-Project/blob/main/Group%20Assignments/Project%20Proposal.md)
 
 **Roles:**
 * Ellie: Organizer, Time keeper, Scheduler, coder, built environment specialist, *more roles to come* 
