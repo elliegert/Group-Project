@@ -49,6 +49,7 @@ We have some data sets from our first assignments, but definitely need to explor
  
 1. Pick 5 locations with high traffic fatality rates to use to start to explore street characteristic data as test runs
   2. Explore these 5 characteristics:
+  
     * Speed
     
     * Width/type of road
