@@ -17,19 +17,15 @@ The spatial scope of this project will be at the city level, specifically the Ci
 **Physical characteristic data** 
 
 _Data we are currently using:_
-* Open Street Map data: building types, speed, highway type
+* Open Street Map: building types, max speed, highway type
 
 _Other potential data sources for physical characteristics include:_
   * Regulatory signs
     * Description: This data includes traffic signs including speed limit, one way, no left turns, weight restrictions, and on the streets of Los Angeles. Sign descriptors, such as speed limit, no left turn, right turn only, etc. are included in this data set. 
     * Source:  Data can be found [here](https://geohub.lacity.org/datasets/regulatory-signs/explore?location=34.009903%2C-118.405989%2C13.00) from LA City Geohub, from Los Angeles Department of Transportation. 
-  * [Traffic Counts](https://github.com/elliegert/Group-Project/blob/main/data/Traffic_Counts.zip)
-  * Cross walks
-  * Traffic counts
-  * Street designations, which indicate for example, if the street is a small neighborhood street or a larger arterial road  
+  * Cross walks/sidewalks 
   * Land use, potentially from zoning map
   * Number of lanes
-  * Speed limit
   * Medians
   * Intersection traffic control characteristics including traffic signals and signs
 
@@ -40,35 +36,40 @@ _Data we explored but aren't using_
 ## Analysis and Scope
 **Step 1** 
 
-We will first analyze traffic fatalities data to identify hot spots that have had the highest number of traffic fatalities in Los Angeles. So far we have:
-  * Mapped the locations of traffic fatalities, demonstrating the areas with the highest number of deaths.
-  * Narrowed our scope to ~80 locations that have had 2 or more fatalities from 2014-2019.  
+We will first analyze traffic fatality data to identify hotspots that have had multiple collisions resulting in fatalities in Los Angeles. So far we have:
+  *  Narrowed our scope to ~80 locations that have had 2 or more collisions that have resulted in fatalities between 2014-2019. 
+  *  Mapped these locations and their resulting fatalities, including a socrata interactive map that depicts height differences where taller heights equal more fatalities 
+   
 
 **Step 2**
 
 We will analyze the physical characteristics of these locations, such as street width, speed limited, etc. We will analyze this data to determine what the most common characteristics of these hot spots are. So far we have explored: 
- * building types
- * street classifications
- * speed
-Our analysis methods have included using counts to see which characteristics are most common, as well as plotting the characteristics on maps. 
-Next steps would be to look at how these characteristics interact with eachother to understand if there are sets of common characteristics combinations. 
+ * [building types](https://github.com/elliegert/Group-Project/blob/main/Group%20Assignments/Midterm/Midterm_buildingtypes_count%20and%20visualization.ipynb)
+ * [street classifications](https://github.com/elliegert/Group-Project/blob/main/Group%20Assignments/Midterm/Locations_highway.ipynb)
+ * [speed](https://github.com/elliegert/Group-Project/blob/main/Group%20Assignments/Midterm/Locations_speed.ipynb) 
+ * [avg street circuity and average street length](https://github.com/elliegert/Group-Project/blob/main/Group%20Assignments/Midterm/Locations_avg_stats.ipynb)
+
+Our analysis methods have included using value counts to see which characteristics are most common, as well as plotting the characteristics on maps and bar charts. Next steps would be to look at how these characteristics interact with eachother to understand if there are sets of common characteristics combinations. 
 
 **Step 3** 
 
-The next step, though we're not sure that we'll get to this within the scope of this quarter, would be to  look at Los Angeles as a whole to see if there are other locations that have these common characteristics, but that might not necessarily be fatality hot spots.  
-* This map would show locations throughout LA that have the common characteristics we identified in the mentioned above. 
+The next step, though we're not sure that we'll get to this within the scope of this quarter, would be to look at Los Angeles as a whole to see if there are other locations that have these common characteristics, but that might not necessarily be fatality hot spots.  
+* This map would show locations throughout LA that have the common characteristics we have identified through our data exploration previously mentioned. 
 
 **Scope** 
 There are a few scoping parameters we have started to define as we've explored the data. As we learn more about the available data sources and learn more about spatial analysis, we may narrow the scope further. 
 * _Population_: We are looking at all traffic fatalities, including pedestrian, bicylists, and motorists. 
 * _Physical boundaries for fatality “hotspots”_: We have been exploring what the physical boundaries of our “hotspot” locations are. We have set various parameters based on the characteristics. This is an area we need to continue to explore to see what makes sense for each characteristic. 
 * _Time period for traffic fatalities_: We are looking at the traffic fatalities from 2014-2019.
-* _Fatalities vs severe injuries_: The two common safety factors used by municipalities and The Statewide Integrated Traffic Records System (SWITRS) are fatalities and severe injuries. After exploring the crash data, just looking at fatalities over 5 years provides more than enough data points. We've narrowed out points down to look at where two or more fatalities have occured. 
+* _Fatalities vs severe injuries_: The two common safety factors used by municipalities and The Statewide Integrated Traffic Records System (SWITRS) are fatalities and severe injuries. After exploring the crash data, just looking at fatalities over 5 years provides more than enough data points. Thus, to make this manageable we have filtered down the data to include only locations that have had 2+ collisions that have resulted in fatalities. 
+
 ## Conclusion 
-From our research, the two main questions we expect to be able to answer are: 1. What are the common characteristics of the most dangerous roads in LA? 2. Are there locations in LA that have not yet had a high number of fatalities, but that have the common characteristics that make them very dangerous? 
+From our research, the two main questions we expect to be able to answer are: 
+1. What are the common characteristics of streets in LA that have had 2+ collisions resulting in fatalities? 
+2. Are there locations in LA that have not yet had a high number of fatalities, but that have the common characteristics that make them very dangerous? (*we may not get to answering this question in the scope of this quarter, but this is somethign that could be explored later down the road with the preliminary information and codes we have created*)
 
-Some further insights that we hope to be able to gain from our research can help us understand why there are locations with common characteristics that lack a high number of collisions or fatalities. For example, are these locations in neighborhoods where traffic crashes are more likely to be unreported due to neighborhood characteristics and demographics, do places with lower traffic counts just have fewer fatalities, are there other infrastructure investments in place that we did not analyze, etc.  
+Some further insights that could also be gained from this research could help to determine why there are locations with common characteristics that lack a high number of collisions or fatalities. For example, are these locations in neighborhoods where traffic crashes are more likely to be unreported due to neighborhood characteristics and demographics, do places with lower traffic counts just have fewer fatalities, are there other infrastructure investments in place that we did not analyze, etc.  
 
-Ultimately, we hope to gain insight into where infrastructure investments and improvements can be made to prioritize safety on Los Angeles city streets before crashes happen. 
+Ultimately, we hope to gain insight into where infrastructure investments and improvements can be made to prioritize safety on Los Angeles city streets before collisions and fatalities occur. 
 
 
