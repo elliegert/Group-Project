@@ -16,10 +16,12 @@ The spatial scope of this project will be at the city level, specifically the Ci
     * Source: The dataset can be accessed [here](https://geohub.lacity.org/datasets/ladot::high-injury-network-2/explore) from LA City Geohub.
 
 **Physical characteristic data** 
-* Regulatory signs
-  * Description: This data includes traffic signs including speed limit, one way, no left turns, weight restrictions, and on the streets of Los Angeles. Sign descriptors, such as speed limit, no left turn, right turn only, etc. are included in this data set. 
+*Data we are currently using:*
+
+*Other potential data sources for physical characteristics include:*
+  * Regulatory signs
+    * Description: This data includes traffic signs including speed limit, one way, no left turns, weight restrictions, and on the streets of Los Angeles. Sign descriptors, such as speed limit, no left turn, right turn only, etc. are included in this data set. 
   * Source:  Data can be found [here](https://geohub.lacity.org/datasets/regulatory-signs/explore?location=34.009903%2C-118.405989%2C13.00) from LA City Geohub, from Los Angeles Department of Transportation. 
-* Other potential data sources for physical characteristics include:
   * Cross walks
   * Traffic counts
   * Street designations, which indicate for example, if the street is a small neighborhood street or a larger arterial road  
