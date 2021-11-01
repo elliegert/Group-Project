@@ -39,11 +39,13 @@ _Data we explored but aren't using_
 
 ## Analysis and Scope
 **Step 1** 
+
 We will first analyze traffic fatalities data to identify hot spots that have had the highest number of traffic fatalities in Los Angeles. So far we have:
   * Mapped the locations of traffic fatalities, demonstrating the areas with the highest number of deaths.
   * Narrowed our scope to ~80 locations that have had 2 or more fatalities from 2014-2019.  
 
 **Step 2**
+
 We will analyze the physical characteristics of these locations, such as street width, speed limited, etc. We will analyze this data to determine what the most common characteristics of these hot spots are. So far we have explored: 
  * building types
  * street classifications
@@ -51,7 +53,9 @@ We will analyze the physical characteristics of these locations, such as street 
 Our analysis methods have included using counts to see which characteristics are most common, as well as plotting the characteristics on maps. 
 Next steps would be to look at how these characteristics interact with eachother to understand if there are sets of common characteristics combinations. 
 
-**Step 3:** We will then take a look at Los Angeles as a whole to see if there are other locations that have these common characteristics, but that might not necessarily be fatality hot spots.  
+**Step 3** 
+
+The next step, though we're not sure that we'll get to this within the scope of this quarter, would be to  look at Los Angeles as a whole to see if there are other locations that have these common characteristics, but that might not necessarily be fatality hot spots.  
 * This map would show locations throughout LA that have the common characteristics we identified in the mentioned above. 
 
 **Scope** 
